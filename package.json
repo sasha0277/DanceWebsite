@@ -1,0 +1,20 @@
+{
+  "name": "dance-website",
+  "version": "1.0.0",
+  "description": "This is webiste for Dance Academy",
+  "main": "app.js",
+
+  "scripts": {
+    "start": "npm run kill && nodemon app.js",
+    "kill": "kill -9 $(lsof -i :3000) &>/dev/null | exit 0"
+},
+  "keywords": [],
+  "author": "Akki Bhai",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.10",
+    "pug": "^3.0.2"
+  }
+}
