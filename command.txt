@@ -1,0 +1,12 @@
+touch .gitignore
+git config --global user.name "put your name"
+git config --global user.email "put your mail"
+git init
+git add .
+git commit -m "Intial commit"
+git status # just to see
+ then we have ssh command from internet
+ssh-keygen -t rsa -b 4096 -C "put your email"
+cat and paste path of the key
+git remote add origin <project url>
+git push origin master
